@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  gap: 20px;
+}
+
+.use-div {
+  background-color: aquamarine;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
