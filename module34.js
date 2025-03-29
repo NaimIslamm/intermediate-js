@@ -72,11 +72,11 @@
 // setInterval & cleanInterval---------------------
 
 // JS Event Loop------------------------------------
-console.log("start");
-setTimeout(() => {
-  console.log("late men", 4000);
-});
-console.log("end");
+// console.log("start");
+// setTimeout(() => {
+//   console.log("late men", 4000);
+// });
+// console.log("end");
 
 // ekhane late men ta majher dike output a show korar kotha set threded jodi mene cholto...4 sec off rekhe but event queue bole ekta method ase j khane asynchronous operation gula scheduled/later execution kore dibe...
 
