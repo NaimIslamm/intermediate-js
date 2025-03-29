@@ -10,35 +10,45 @@
 
 // onno site er api diye tar data amr website a show korano...........
 
-function loadData2() {
-  fetch("https://jsonplaceholder.typicode.com/users")
-    .then((res) => res.json())
-    .then((data) => displayUser(data));
-}
+// function loadData2() {
+//   fetch("https://jsonplaceholder.typicode.com/users")
+//     .then((res) => res.json())
+//     .then((data) => displayUser(data));
+// }
 
-function displayUser(data) {
-  const ul = document.getElementById("user-list");
-  const postContainer = document.getElementById("post-container");
-  //   eta upore set kora uchit loop er mddhe korle iteration hbe bar bar;
-  for (const user of data) {
-    console.log(user);
-    const li = document.createElement("li");
-    li.innerText = user.name;
-    ul.appendChild(li);
+// function displayUser(data) {
+//   const ul = document.getElementById("user-list");
+//   const postContainer = document.getElementById("post-container");
+//   //   eta upore set kora uchit loop er mddhe korle iteration hbe bar bar;
+//   for (const user of data) {
+//     console.log(user);
+//     const li = document.createElement("li");
+//     li.innerText = user.name;
+//     ul.appendChild(li);
 
-    // div baniye seta style kore add korbo & dynamic data bosabo----
-    const div = document.createElement("div");
-    // classlist add korlam css likhew style kora jabe------
-    div.classList.add("use-div");
-    // abr js er mddhew css lekha jabe--------
-    div.style.fontSize = "20px";
-    div.style.display = "flex";
-    div.style.alignItems = "center";
-    div.style.gap = "20px";
-    div.innerHTML = `<h4>User:${user.name}</h4>
-    <h5>Name:${user.username}</h5>
-    <p>Address:${user.address.city}</p>`;
+//     // div baniye seta style kore add korbo & dynamic data bosabo----
+//     const div = document.createElement("div");
+//     // classlist add korlam css likhew style kora jabe------
+//     div.classList.add("use-div");
+//     // abr js er mddhew css lekha jabe--------
+//     div.style.fontSize = "30px";
+//     div.style.display = "flex";
+//     div.style.alignItems = "center";
+//     div.style.gap = "20px";
+//     div.innerHTML = `<h4>User:${user.name}</h4>
+//     <h5>Name:${user.username}</h5>
+//     <p>Address:${user.address.city}</p>`;
 
-    postContainer.appendChild(div);
-  }
-}
+//     postContainer.appendChild(div);
+//   }
+// }
+// async await diye function-------------
+// const loadData3 = async () => {
+//   try {
+//     const res = await fetch("https://jsonplaceholder.typicode.com/comments");
+//     const data = await res.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.log("data load error");
+//   }
+// };
