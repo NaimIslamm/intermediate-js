@@ -29,3 +29,15 @@
 // var a = 6;
 // print5(a);
 // var dici bole pacce upor theke call krci taw------
+
+// for closure------------------------------------------
+
+// function stopWatch() {
+//   let counter = 0;
+//   return function () {
+//     counter++;
+//     return counter;
+//   };
+// }
+// const storeReturn1 = stopWatch();
+// console.log(storeReturn1());
