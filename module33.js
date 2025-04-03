@@ -8,6 +8,11 @@
 //     .then((data) => console.log(data));
 // }
 
+// function loadusers() {
+//   fetch("https://jsonplaceholder.typicode.com/todos/1")
+//     .then((res) => res.json())
+//     .then((data) => console.log(data));
+// }
 // onno site er api diye tar data amr website a show korano...........
 
 // function loadData2() {
@@ -15,6 +20,7 @@
 //     .then((res) => res.json())
 //     .then((data) => displayUser(data));
 // }
+// uporer fetch a jei function ta call korci oi function a shb dhoroner code kore rakhci..kivabe api theke data amr website a show korba with style--------------------
 
 // function displayUser(data) {
 //   const ul = document.getElementById("user-list");
@@ -42,7 +48,7 @@
 //     postContainer.appendChild(div);
 //   }
 // }
-// async await diye function-------------
+// async await diye function-------------------------------------------------------
 // const loadData3 = async () => {
 //   try {
 //     const res = await fetch("https://jsonplaceholder.typicode.com/comments");

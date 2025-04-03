@@ -130,3 +130,71 @@
 //   return a * b;
 // }
 // console.log(calculation(15, 5, add));
+
+// function a(name) {
+//   console.log(name);
+// }
+// a("deep");
+// const number = 5;
+// a(number);
+// const arrayName = [1, 2, 3, 4, 5, 6, 7, 8];
+// a(arrayName);
+// const istrue = true;
+// a(istrue);
+
+// function a(parameter) {
+//   parameter();
+// }
+// function greetingHandler() {
+//   console.log("good morning");
+// }
+// a(greetingHandler);
+
+// function a(parameter, name) {
+//   parameter(name);
+// }
+// function greetingHandler(name) {
+//   console.log("Good Morning", name);
+//   //   low order function a ekta parameter nilam 'name'---
+// }
+// a(greetingHandler, "Naim Islam");
+
+// high order function ta k call korci & vitore function name ta arguements hisebe pathacci--------------
+// function displayUser(data) {
+//   console.log(data);
+// }
+// function loadusers() {
+//   fetch("https://jsonplaceholder.typicode.com/todos/1")
+//     .then((res) => res.json())
+//     .then((data) => displayUser(data));
+// }
+// loadusers();
+
+// onno site er api diye tar data amr website a show korano----------------------------------
+
+// ei function er mddhe jei api ase oita ekta button click korle data show korbe---------------------
+
+// function loadData2() {
+//   fetch("https://jsonplaceholder.typicode.com/users")
+//     .then((res) => res.json())
+//     .then((data) => displayUser(data));
+// }
+
+// function displayUser(data) {
+//   const postContainer = document.getElementById("post-container");
+//   const userList = document.getElementById("user-list");
+//   for (const user of data) {
+//     const li = document.createElement("li");
+//     li.innerText = user.name;
+//     userList.appendChild(li);
+//     const div = document.createElement("div");
+
+//     div.innerHTML = `<h2>User:${user.name}</h2>
+//     <h3>Zip:${user.zipcode}</h3>
+//     <h4>Loaction:${user.city}</h4>`;
+//     postContainer.appendChild(div);
+//     // we can style
+//     div.classList.add("use-div");
+//     div.style.fontSize = "30px";
+//   }
+// }
