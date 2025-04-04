@@ -49,6 +49,7 @@
 //   }
 // }
 // async await diye function-------------------------------------------------------
+
 // const loadData3 = async () => {
 //   try {
 //     const res = await fetch("https://jsonplaceholder.typicode.com/comments");

@@ -177,7 +177,8 @@
 // function loadData2() {
 //   fetch("https://jsonplaceholder.typicode.com/users")
 //     .then((res) => res.json())
-//     .then((data) => displayUser(data));
+//     .then((data) => displayUser(data))
+//     .catch((error) => console.log("probled detected:", error));
 // }
 
 // function displayUser(data) {
